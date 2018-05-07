@@ -1,0 +1,7 @@
+server:
+  port: 5000
+security:
+  oauth2:
+    client:
+      client-id: client1
+      client-secret: secret
