@@ -86,7 +86,7 @@
                 <configuration>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
                     <shadedArtifactAttached>true</shadedArtifactAttached>
-                    <finalName>${project.name}</finalName>
+                    <finalName>${project.groupId}-${project.artifactId}</finalName>
                 </configuration>
             </plugin>
             <plugin>
